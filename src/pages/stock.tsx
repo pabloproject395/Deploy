@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { useBulkParseKeys } from "@workspace/api-client-react";
+import { useBulkParseKeys } from "@/lib/api-client";
 import { useQueryClient } from "@tanstack/react-query";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";

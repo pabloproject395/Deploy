@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useListDeposits, getListDepositsQueryKey } from "@workspace/api-client-react";
+import { useListDeposits, getListDepositsQueryKey } from "@/lib/api-client";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { formatIDR, formatDate } from "@/lib/utils";

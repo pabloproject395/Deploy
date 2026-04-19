@@ -3,7 +3,7 @@ import {
   useListUsers, getListUsersQueryKey,
   useTopupUser, useBanUser,
   useGetUserTransactions, useBatchTopup,
-} from "@workspace/api-client-react";
+} from "@/lib/api-client";
 import { useQueryClient } from "@tanstack/react-query";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Input } from "@/components/ui/input";

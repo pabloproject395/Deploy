@@ -1,5 +1,5 @@
 import React from "react";
-import { useGetDashboardStats, getGetDashboardStatsQueryKey, useGetRevenueChart, getGetRevenueChartQueryKey, useGetStockAlerts, getGetStockAlertsQueryKey } from "@workspace/api-client-react";
+import { useGetDashboardStats, getGetDashboardStatsQueryKey, useGetRevenueChart, getGetRevenueChartQueryKey, useGetStockAlerts, getGetStockAlertsQueryKey } from "@/lib/api-client";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { formatIDR } from "@/lib/utils";
 import { Users, Receipt, CreditCard, AlertTriangle, ArrowUpRight, ArrowDownRight, PackageOpen } from "lucide-react";

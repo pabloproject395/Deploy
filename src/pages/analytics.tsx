@@ -4,7 +4,7 @@ import {
   useGetTopProducts, getGetTopProductsQueryKey,
   useGetStockAlerts, getGetStockAlertsQueryKey,
   useGetPerProductStats, getGetPerProductStatsQueryKey,
-} from "@workspace/api-client-react";
+} from "@/lib/api-client";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { formatIDR } from "@/lib/utils";
 import { AlertTriangle, TrendingUp, Package } from "lucide-react";

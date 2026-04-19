@@ -1,5 +1,5 @@
 import React from "react";
-import { useListAuditLogs, getListAuditLogsQueryKey } from "@workspace/api-client-react";
+import { useListAuditLogs, getListAuditLogsQueryKey } from "@/lib/api-client";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { formatDate } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
